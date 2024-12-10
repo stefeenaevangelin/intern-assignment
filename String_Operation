@@ -1,0 +1,49 @@
+# Define the string
+sample_string = "Hello everyone!"
+
+# Original string
+print("Original string:", sample_string)
+
+# Convert to uppercase
+uppercased = sample_string.upper()
+print("Uppercased string:", uppercased)
+
+# Convert to lowercase
+lowercased = sample_string.lower()
+print("Lowercased string:", lowercased)
+
+# Title case (each word capitalized)
+title_cased = sample_string.title()
+print("Title case string:", title_cased)
+
+# Find the position of a substring
+position = sample_string.find("everyone")
+print("Position of 'everyone':", position)
+
+# Replace a substring with another
+modified_string = sample_string.replace("Hello", "Hi")
+print("Modified string:", modified_string)
+
+# Split the string into words
+split_words = sample_string.split(" ")
+print("Words in string:", split_words)
+
+# Join words into a single string
+joined_words = " | ".join(split_words)
+print("Joined string:", joined_words)
+
+# Reverse the string
+reversed_str = sample_string[::-1]
+print("Reversed string:", reversed_str)
+
+# Count occurrences of a character
+count_e = sample_string.count('e')
+print("Occurrences of 'e':", count_e)
+
+# Check if the string starts with a specific substring
+starts_with_hello = sample_string.startswith("Hello")
+print("Starts with 'Hello':", starts_with_hello)
+
+# Check if the string ends with a specific substring
+ends_with_exclamation = sample_string.endswith("!")
+print("Ends with '!':", ends_with_exclamation)
